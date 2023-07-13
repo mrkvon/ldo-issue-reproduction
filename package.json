@@ -5,20 +5,26 @@
   "scripts": {
     "start": "tsc && node dist/index.js",
     "format": "prettier 'src/**/*.ts' --write",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "build:ldo": "ldo build --input src/shapes --output src/ldo"
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/jsonld": "^1.5.9",
+    "@types/n3": "^1.16.0",
     "@types/node": "^20.4.2",
+    "@types/shexj": "^2.1.4",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.13.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "ldo-cli": "^3.0.1",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "ldo": "^1.0.3"
   }
 }

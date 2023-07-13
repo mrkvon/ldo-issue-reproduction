@@ -1,25 +1,19 @@
-# Node TypeScript starter
+# Example for LDO issue 
 
-This is a repository to bootstrap node and TypeScript project quickly. It has prettier and eslint set up, and you can use .env file to provide environment variables.
-
-The setup is opinionated, as author prefers it. Maybe you'll like it, too...
+This is an example that illustrates issue described in https://github.com/o-development/ldo/issues/22#issuecomment-1590228592
 
 ## Prerequisities
 
 Node (v16+) and yarn installed
 
-## Installation
+## Run the example
 
-1. clone this repository `git clone https://github.com/mrkvon/node-typescript-starter.git name-of-your-project`
-2. go to project folder `cd name-of-your-project`
-3. install node modules `yarn`
-4. rename project in [`package.json`](./package.json)
-5. optional: `cp .env.sample .env` if you want to use .env for defining environment variables, like secrets etc.
+In terminal
 
-## Usage
-
-- run `yarn start`
-- develop your project starting from `src/index.ts`
+1. Clone this repository
+2. `cd` to it 
+3. Install packages with `yarn`
+4. Run example with `yarn start`
 
 ## License
 
